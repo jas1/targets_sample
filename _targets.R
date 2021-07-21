@@ -27,5 +27,5 @@ list(
   # 5. make fit of data
   tar_target(fit, biglm(Ozone ~ Wind + Temp, data)),
   # 6. render a report
-  tar_render(report, "index.Rmd")
+  tar_render(report, "reports/index.Rmd")
 )
